@@ -12,6 +12,7 @@
 		D9AFA2E52ACC400D00DA93A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AFA2E42ACC400D00DA93A7 /* Assets.xcassets */; };
 		D9AFA2E82ACC400D00DA93A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AFA2E72ACC400D00DA93A7 /* Preview Assets.xcassets */; };
 		D9AFA2EF2ACC40BD00DA93A7 /* KACApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFA2EE2ACC40BD00DA93A7 /* KACApi.swift */; };
+		D9AFA2F32ACC484900DA93A7 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFA2F22ACC484900DA93A7 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D9AFA2E42ACC400D00DA93A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9AFA2E72ACC400D00DA93A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9AFA2EE2ACC40BD00DA93A7 /* KACApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KACApi.swift; sourceTree = "<group>"; };
+		D9AFA2F22ACC484900DA93A7 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				D9AFA2E02ACC400D00DA93A7 /* FlightNumberAPIApp.swift */,
 				D9AFA2E22ACC400D00DA93A7 /* ContentView.swift */,
 				D9AFA2EE2ACC40BD00DA93A7 /* KACApi.swift */,
+				D9AFA2F22ACC484900DA93A7 /* Storage.swift */,
 				D9AFA2E42ACC400D00DA93A7 /* Assets.xcassets */,
 				D9AFA2E62ACC400D00DA93A7 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9AFA2E32ACC400D00DA93A7 /* ContentView.swift in Sources */,
+				D9AFA2F32ACC484900DA93A7 /* Storage.swift in Sources */,
 				D9AFA2EF2ACC40BD00DA93A7 /* KACApi.swift in Sources */,
 				D9AFA2E12ACC400D00DA93A7 /* FlightNumberAPIApp.swift in Sources */,
 			);
