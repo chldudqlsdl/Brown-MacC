@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    let kacApi = KACApi()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button {
+                kacApi.performRequest()
+            } label: {
+                Image(systemName: "paperplane.circle")
+            }
         }
-        .padding()
     }
 }
 
